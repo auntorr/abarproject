@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+.padding_margine_0 {
+	margin:0;
+	padding:0;
+	}
+        body{
+            background-image: url('../public/img/body_bg.html');
+            padding-top:0px !important;
+        }
+        
+.scroll-top-arrow {
+  border-color: rgba(40, 46, 53, 0.5);
+  background: rgba(40, 46, 53, 0.8);
+  color: rgba(250, 250, 250, 0.5);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  content: "\f000";
+}
+.scroll-top-arrow:hover {
+  border-color: rgba(96, 157, 219, 0.8);
+  background: rgba(96, 157, 219, 0.8);
+  color: #ffffff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  content: "\f000";
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.scroll-top-arrow-icon {
+  position: absolute;
+  left: 47%;
+  margin-top: -44px;
+}
+.abtn{
+    cursor: pointer;
+}
+.dropdown-menu li a{
+    color:white;
+}
+.watchlist_btn,.bookmark_btn{
+    color: #FFF;
+    background-color: #5BC0DE;
+    border-color: #46B8DA;
+    border:1px #46B8DA  solid;
+   
+
+}
+.watchlist_btn{
+    float: left;
+    
+}
+.bookmark_btn{
+    float: right;
+}
+ .bs-example img{
+        height: 75px;
+        width: 75px;
+
+    }
+    .bs-example .media{
+
+        padding: 5px;
+        padding-bottom: 0px;
+
+    }
+
+
+    .thumbnail {
+        position:relative;
+        overflow:hidden;
+    }
+
+    .caption {
+        position:absolute;
+        top:0;
+        right:0;
+        background-color:coral;
+        width:100%;
+        height:100%;
+        padding:2%;
+        display: none;
+        text-align:center;
+        color:#fff !important;
+        z-index:10;
+        cursor: pointer;
+        
+
+    }
+    .popular_watch_paging{
+        cursor: pointer;
+    }
+   
+    .preview{
+        color: white;
+    }
+    .bookmark_watchlist_paging{
+        cursor: pointer;
+    }
+.banner_text{
+    position: absolute;
+    left: 10%;
+    top:25%;
+}
+.l_img{
+
+}
+.l_img:hover{
+    display:none;
+}
+    
+ 
